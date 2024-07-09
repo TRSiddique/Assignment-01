@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-
 .background{
-  height: 650px;
+ 
   background-image: url("../assets/hero-bg.png");
+  height: 650px;
   background-size: cover;
   background-position: center;
 }
@@ -150,4 +146,81 @@ justify-content: space-between;
   margin: auto;
   /* border: 2px solid red; */
 
+}
+.ticket , .ticket1, .ticket2{
+    margin-top: 20px;
+    display: flex;
+    /* justify-items: center; */
+    align-items:start;
+    flex-direction: column;
+    width:300px;
+    height:280px;
+    /* border: 2px solid red; */
+    margin: auto;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+
+
+}
+
+.ticket1{
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.ticket2{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+
+.timg{
+
+    align-items: start;
+}
+
+.head3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+
+text-align: left;
+
+}
+
+
+
+
+
+
+.fourthpage{
+    padding-top: 40px;
+    display: flex;
+     justify-content: space-between; 
+      /* align-items: center;  */
+      flex-direction: column;
+      width: 1300px;
+      height: 600px;
+      margin: auto;
+      /* border: 2px solid red; */
+
+
+}
+.ticketcontainer{
+    display: flex;
+    justify-content:start;
+    flex-direction: row;
+}
+
+.learnmorebutton{
+
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
+text-align: left;
+text-decoration-line: underline;
 }
