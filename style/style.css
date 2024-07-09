@@ -1,62 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* *{
     margin: 0;
     padding: 0;
 } */
 
-#background_img{
-    height: 650px;
-    background-image: url("../assets/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    
-  
+#background {
+  height: 650px;
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 998px;
+  height: 582px;
+  margin: auto;
+  padding: 0px;
+}
+.headline {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-.hero{   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 998px;
-    height: 582px;
+.description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0px 10px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+}
+
+.whyneed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 998px;
+  height: 200px;
+  margin: auto;
+  padding: 0px;
+}
+
+.why {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+
+  text-align: center;
+  margin: 0;
+}
+
+.card-container {
+  display: flex;
+  width: 998px;
+  height: 250px;
+  margin: auto;
+  padding: 0px;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+.head2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.btn2 {
+  width: 150px;
+  height: 48px;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.card1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: start;
+}
+#second {
+    width: 1140px;
+    height: 1120px;
     margin: auto;
-    padding: 0px;
-
+    padding: 87px 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    border: 2px solid red;
+    
 }
-.headline{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 68px;
-    letter-spacing: 0%;
-    text-align: center;
-    }
-
-.description{
-   
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    opacity: 0.7;
+.secondpage {
+ border: 2px solid red;
+  padding: 0px;
+  background: rgba(250, 251, 251, 0.02);
+  background-color: rgb(255, 253, 253);
+  height: 1100px;
 }
-.btn{ 
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin: 0px 10px;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    padding: 21px 24px 21px 24px;
-    }
